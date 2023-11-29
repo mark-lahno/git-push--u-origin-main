@@ -1,4 +1,5 @@
 let str = "zzzzyzz"
 
+let b = str.includes("т")
 
-str.includes("y") === true ? console.log("нашел") : console.log("заблудился")
+b === true ? console.log("нашел") : console.log("заблудился")
